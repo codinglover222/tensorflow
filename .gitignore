@@ -51,3 +51,6 @@ gradleBuild
 Podfile.lock
 Pods
 xcuserdata
+
+# logs
+*.logs

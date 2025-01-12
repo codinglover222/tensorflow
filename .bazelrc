@@ -71,7 +71,7 @@
 build --copt=-mno-avx512f
 build --copt=-mno-avx512vl
 build --copt=-mno-avx512bw
-build --xnn_enable_avxvnni=false
+build --define=xnn_enable_avxvnni=false
 # For projects which use TensorFlow as part of a Bazel build process, putting
 # nothing in a bazelrc will default to a monolithic build. The following line
 # opts in to modular op registration support by default.
